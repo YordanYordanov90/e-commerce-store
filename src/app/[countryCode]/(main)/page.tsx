@@ -6,11 +6,12 @@ import FeaturedProducts from "@modules/home/components/featured-products"
 import Hero from "@modules/home/components/hero"
 import { ProductCollectionWithPreviews } from "types/global"
 import { cache } from "react"
+import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "E-commerce Store",
   description:
-    "A performant frontend ecommerce starter template with Next.js 14 and Medusa.",
+    "Shop with confidence. Secure payment. Free returns. Browse our collection of handcrafted goods.",
 }
 
 const getCollectionsWithProducts = cache(
