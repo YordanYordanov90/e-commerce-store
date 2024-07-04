@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { AiOutlineRight, AiOutlineArrowDown } from "react-icons/ai"
 import { Button } from "@medusajs/ui"
-// import hero from "/public/images/hero.png"
+import hero from "/public/hero.png"
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
             Best in Hi-Res and
             <br /> Noise Cancelling
           </h1>
-          <p className="text-lightGray text-sm">
+          <p className=" text-sm">
             Experience finely tuned noise-canceling performance in a comfortable
             <br className="hidden md:block" />
             headphone. Long-lasting battery life plus quick charging keeps you
@@ -21,10 +21,10 @@ const Hero = () => {
             listening for up to 35 hours since start.
           </p>
           <div className="flex space-x-4 mt-4">
-            <Button className="bg-purple text-base font-bold py-2 px-8 border-0 hover:bg-dark">
+            <Button className=" text-base font-bold py-2 px-8 border-0">
               Buy Now
             </Button>
-            <button className="bg-transparent text-base text-purple border border-purple rounded-lg font-bold py-2 px-6 hover:bg-purple hover:text-white">
+            <button className="bg-transparent text-base text-purple border  rounded-lg font-bold py-2 px-6  hover:text-white">
               Learn More
             </button>
           </div>
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className="w-full md:w-1/3 flex place-items-center">
           <Image
-            src={"/images/hero.png"} 
+            src={hero}
             alt="Hero Image"
             width={372}
             height={437}
